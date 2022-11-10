@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<MainScreen />} />
+        <Route path="/" element={<MainScreen />} />
         <Route path="/Settings" element={<Settings />} />
         <Route path="/Game" element={<Game />} />
         <Route path="/RoleDisplay" element={<RoleDisplay />} />
