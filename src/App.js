@@ -8,7 +8,7 @@ import StartedGame from "./Components/StartedGame";
 function App() {
   return (
     <Router>
-      <Routes>
+      <Routes basename="/">
         <Route path="/" element={<MainScreen />} />
         <Route path="/Settings" element={<Settings />} />
         <Route path="/Game" element={<Game />} />

@@ -1,7 +1,7 @@
 {
   "name": "kataskopos",
   "version": "0.1.0",
-  "homepage": "https://kostis14.github.io/kataskopos",
+  "homepage": "https://kostis14.github.io/kataskopos/",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.5",
