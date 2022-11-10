@@ -74,6 +74,7 @@ function MainScreen() {
             variant="contained"
             onClick={() => {
               playButtonSound();
+              exposedData.stop();
               navigate("/settings", { state: "Hello World!" });
             }}
             style={{
