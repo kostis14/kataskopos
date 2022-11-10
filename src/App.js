@@ -10,10 +10,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<MainScreen />} />
-        <Route path="/Settings" element={<Settings />} />
-        <Route path="/Game" element={<Game />} />
-        <Route path="/RoleDisplay" element={<RoleDisplay />} />
-        <Route path="/StartedGame" element={<StartedGame />} />
+        <Route path="settings" element={<Settings />} />
+        <Route path="game" element={<Game />} />
+        <Route path="roleDisplay" element={<RoleDisplay />} />
+        <Route path="startedGame" element={<StartedGame />} />
       </Routes>
     </Router>
   );

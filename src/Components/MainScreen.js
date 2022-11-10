@@ -74,7 +74,7 @@ function MainScreen() {
             variant="contained"
             onClick={() => {
               playButtonSound();
-              navigate("/Settings", { state: "Hello World!" });
+              navigate("settings", { state: "Hello World!" });
             }}
             style={{
               fontFamily: "Roboto Condensed",

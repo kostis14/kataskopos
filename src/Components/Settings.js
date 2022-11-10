@@ -93,7 +93,7 @@ function Settings() {
                   setSettingsSet(false);
                 } else {
                   playButtonSound();
-                  navigate("/Game", {
+                  navigate("game", {
                     state: { playerCount: playerCount, time: time },
                   });
                 }

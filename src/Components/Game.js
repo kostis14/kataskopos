@@ -134,7 +134,7 @@ function Game() {
                       color="primary"
                       className="startButton"
                       onClick={() => {
-                        navigate("/RoleDisplay", {
+                        navigate("roleDisplay", {
                           state: {
                             playerCount: state.playerCount,
                             place: place,
