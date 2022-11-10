@@ -93,7 +93,7 @@ function RoleDisplay() {
                   if (countTurns == playerCount - 1) {
                     setCountTurns(0);
 
-                    navigate("startedGame", {
+                    navigate("/startedGame", {
                       state: {
                         time: time,
                       },
