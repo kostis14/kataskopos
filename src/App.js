@@ -1,6 +1,6 @@
 import "./App.css";
 import MainScreen from "./Components/MainScreen";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Settings from "./Components/Settings";
 import Game from "./Components/Game";
 import RoleDisplay from "./Components/RoleDisplay";
