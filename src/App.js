@@ -8,8 +8,8 @@ import StartedGame from "./Components/StartedGame";
 function App() {
   return (
     <Router>
-      <Routes basename="/">
-        <Route path="/" element={<MainScreen />} />
+      <Routes>
+        <Route exact path="/" element={<MainScreen />} />
         <Route path="/Settings" element={<Settings />} />
         <Route path="/Game" element={<Game />} />
         <Route path="/RoleDisplay" element={<RoleDisplay />} />
